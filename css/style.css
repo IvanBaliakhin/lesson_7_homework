@@ -1,0 +1,69 @@
+:root {
+    --size: 70px;
+}
+
+table {
+    margin: 0 auto;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+td {
+    border: 2px solid black;
+}
+
+.h1 {
+    height: var(--size);
+}
+
+.h2 {
+    height: calc(var(--size) * 2);
+}
+
+.h3 {
+    height: calc(var(--size) * 3);
+}
+
+.h4 {
+    height: calc(var(--size) * 4);
+}
+
+.h5 {
+    height: calc(var(--size) * 5);
+}
+
+.w1 {
+    width: var(--size);
+}
+
+.w2 {
+    width: calc(var(--size) * 2);
+}
+
+.w3 {
+    width: calc(var(--size) * 3);
+}
+
+.w4 {
+    width: calc(var(--size) * 4);
+}
+
+.bg-red {
+    background-color: #914848;
+}
+
+.bg-yellow {
+    background-color: #e4db64;
+}
+
+.bg-green {
+    background-color: #5b8a5b;
+}
+
+.bg-blue {
+    background-color: #4e80a8;
+}
+
+.bg-grey {
+    background-color: #8d8d8d;
+}
