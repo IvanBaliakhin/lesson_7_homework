@@ -2,9 +2,13 @@
     --size: 70px;
 }
 
+div,
 table {
     margin: 0 auto;
     text-align: center;
+}
+
+table {
     border-collapse: collapse;
 }
 
